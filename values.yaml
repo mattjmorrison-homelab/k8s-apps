@@ -198,11 +198,6 @@ apps:
     repoURL: https://github.com/mattjmorrison-homelab/homelab-traefik
     path: manifests
 
-  - name: homelab-woodpecker
-    namespace: woodpecker
-    repoURL: https://github.com/mattjmorrison-homelab/homelab-woodpecker
-    path: manifests
-
   - name: k8s-zot
     namespace: zot
     repoURL: https://github.com/mattjmorrison-homelab/k8s-zot
