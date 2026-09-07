@@ -203,11 +203,6 @@ apps:
     repoURL: https://github.com/mattjmorrison-homelab/homelab-woodpecker
     path: manifests
 
-  - name: homelab-zot
-    namespace: zot
-    repoURL: https://github.com/mattjmorrison-homelab/homelab-zot
-    path: manifests
-
   - name: k8s-zot
     namespace: zot
     repoURL: https://github.com/mattjmorrison-homelab/k8s-zot
