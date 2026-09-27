@@ -212,3 +212,8 @@ apps:
     namespace: matter-server
     repoURL: https://github.com/mattjmorrison-homelab/k8s-matter-server
     path: manifests
+
+  - name: k8s-backstage
+    namespace: backstage
+    repoURL: https://github.com/mattjmorrison-homelab/k8s-backstage
+    path: manifests
