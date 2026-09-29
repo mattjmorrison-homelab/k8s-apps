@@ -31,6 +31,8 @@ apps:
     namespace: cert-manager
     repoURL: https://github.com/mattjmorrison-homelab/homelab-cert-manager-crds
     path: .
+    directory:
+      exclude: catalog-info.yaml
     retry: false
     syncOptions:
       - CreateNamespace=true
@@ -74,6 +76,8 @@ apps:
     namespace: external-secrets
     repoURL: https://github.com/mattjmorrison-homelab/homelab-external-secrets-crds
     path: .
+    directory:
+      exclude: catalog-info.yaml
     retry: false
     syncOptions:
       - CreateNamespace=true

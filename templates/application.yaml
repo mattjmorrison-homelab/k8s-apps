@@ -15,6 +15,10 @@ spec:
     repoURL: {{ .repoURL }}
     targetRevision: HEAD
     path: {{ .path }}
+{{- if .directory }}
+    directory:
+      {{- toYaml .directory | nindent 6 }}
+{{- end }}
 {{- end }}
   destination:
     server: https://kubernetes.default.svc
