@@ -221,3 +221,8 @@ apps:
     namespace: backstage
     repoURL: https://github.com/mattjmorrison-homelab/k8s-backstage
     path: manifests
+
+  - name: k8s-ad-reporter
+    namespace: ad-reporter
+    repoURL: https://github.com/mattjmorrison-homelab/k8s-ad-reporter
+    path: manifests
