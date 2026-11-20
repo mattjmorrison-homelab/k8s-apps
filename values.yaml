@@ -226,3 +226,8 @@ apps:
     namespace: ad-reporter
     repoURL: https://github.com/mattjmorrison-homelab/k8s-ad-reporter
     path: manifests
+
+  - name: k8s-healthchecks
+    namespace: healthchecks
+    repoURL: https://github.com/mattjmorrison-homelab/k8s-healthchecks
+    path: manifests
