@@ -231,3 +231,8 @@ apps:
     namespace: healthchecks
     repoURL: https://github.com/mattjmorrison-homelab/k8s-healthchecks
     path: manifests
+
+  - name: k8s-claude
+    namespace: claude
+    repoURL: https://github.com/mattjmorrison-homelab/k8s-claude
+    path: manifests
